@@ -1,0 +1,10 @@
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\bin\Release\Open API Library.dll
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\bin\Release\Open API Library.pdb
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\bin\Release\Google.ProtocolBuffers.dll
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\bin\Release\Google.ProtocolBuffers.Serialization.dll
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\bin\Release\Google.ProtocolBuffers.xml
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\bin\Release\Google.ProtocolBuffers.Serialization.xml
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\obj\Release\Open API Library.csprojResolveAssemblyReference.cache
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\obj\Release\Open API Library.csproj.CoreCompileInputs.cache
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\obj\Release\Open API Library.dll
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\obj\Release\Open API Library.pdb

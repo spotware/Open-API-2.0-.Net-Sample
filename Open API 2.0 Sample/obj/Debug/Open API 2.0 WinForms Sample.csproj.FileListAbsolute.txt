@@ -1,0 +1,17 @@
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csprojAssemblyReference.cache
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\obj\Debug\Open_API_2._0_Sample.Main.resources
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csproj.GenerateResource.cache
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Open API 2.0 Sample.exe.config
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Open API 2.0 Sample.exe
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Open API 2.0 Sample.pdb
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Google.ProtocolBuffers.dll
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Google.ProtocolBuffers.Serialization.dll
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Open API Library.dll
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Open API Library.pdb
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Google.ProtocolBuffers.xml
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\bin\Debug\Google.ProtocolBuffers.Serialization.xml
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\obj\Debug\Open_API_2._0_Sample.Properties.Resources.resources
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csproj.CoreCompileInputs.cache
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csproj.CopyComplete
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 Sample.exe
+G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 Sample.pdb
