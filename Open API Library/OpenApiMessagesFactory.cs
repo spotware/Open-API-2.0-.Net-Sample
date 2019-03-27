@@ -156,14 +156,7 @@ namespace Open_API_Library
         {
             return CreateMessage(messageBuilder.PayloadType, messageBuilder.Build().ToByteString(), clientMsgId);
         }
-        public ProtoMessage CreatePingRequest(ulong timestamp, string clientMsgId = null)
-        {
-            return CreateMessage((uint)ProtoPayloadType.PING_REQ, ProtoPingReq.CreateBuilder().SetTimestamp(timestamp).Build().ToByteString(), clientMsgId);
-        }
-        public ProtoMessage CreatePingResponse(ulong timestamp, string clientMsgId = null)
-        {
-            return CreateMessage((uint)ProtoPayloadType.PING_REQ, ProtoPingRes.CreateBuilder().SetTimestamp(timestamp).Build().ToByteString(), clientMsgId);
-        }
+      
         public ProtoMessage CreateVersionRequest(string clientMsgId = null)
         {
             var _msg = ProtoOAVersionReq.CreateBuilder();

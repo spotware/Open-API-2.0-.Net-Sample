@@ -16,7 +16,7 @@ namespace Open_API_2._0_Sample
     {
         private string _clientId = "178_bksI2VoPA1DXJpfvdcylCSVgNto35ZNtlaSaVEz6S348pxLEN7";
         private string _clientSecret = "S7nxdPMfQFeAh5MjCznVEsUfJ35DyHIeQJpAfCf2ktuVdwGfAU";
-        private string _token = "S6yFuc0iJ8MpSCKsoVUdW18DY9jDcuq2KeG2Iz6KiMA";
+        private string _token = "jjjuChnT-d2kfAnaqRfQsftavYtXlvFxq0UMD0HJAOQ";
         private string _apiHost = "demo.ctraderapi.com";
 
         private int _apiPort = 5035;

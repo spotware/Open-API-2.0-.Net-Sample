@@ -47,13 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proto\CommonMessages.cs" />
-    <Compile Include="Proto\CommonModelMessages.cs" />
-    <Compile Include="Proto\OpenApiMessages.cs" />
-    <Compile Include="Proto\OpenApiModelMessages.cs" />
     <Compile Include="OpenApiMessagesFactory.cs" />
     <Compile Include="OpenApiMessagesPresentation.cs" />
     <Compile Include="OpenApiModelObjectsFactory.cs" />
+    <Compile Include="Proto\OpenApiCommonMessages.cs" />
+    <Compile Include="Proto\OpenApiCommonModelMessages.cs" />
+    <Compile Include="Proto\OpenApiMessages.cs" />
+    <Compile Include="Proto\OpenApiModelMessages.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
