@@ -16,11 +16,11 @@ namespace Open_API_2._0_Sample
     {
         private string _clientId = "178_bksI2VoPA1DXJpfvdcylCSVgNto35ZNtlaSaVEz6S348pxLEN7";
         private string _clientSecret = "S7nxdPMfQFeAh5MjCznVEsUfJ35DyHIeQJpAfCf2ktuVdwGfAU";
-        private string _token = "jjjuChnT-d2kfAnaqRfQsftavYtXlvFxq0UMD0HJAOQ";
+        private string _token = "lKNcOZNgnU1Ygat04QDimjzQy9H9nDRzb9pJ0FUCaW8";
         private string _apiHost = "demo.ctraderapi.com";
 
         private int _apiPort = 5035;
-        private long _accountID = 7212686;
+        private long _accountID = 15084071;
 
         //private string _clientId = "185_Cmy5vh47ORewO95NsLCbz10Xn6RAzxFA13fgyg5xTKhzuxj7jr";
         //private string _clientSecret = "JcE4vc5TvscRmtouoqMZS8TxJ31119beYt1TInP4tnOqhCBHL9";
@@ -264,7 +264,7 @@ namespace Open_API_2._0_Sample
         private void btnGetTickData_Click(object sender, EventArgs e)
         {
             var msgFactory = new OpenApiMessagesFactory();
-            var msg = msgFactory.CreateTickDataRequest(_accountID, 1, ((DateTimeOffset)DateTime.Now.AddDays(-5)).ToUnixTimeMilliseconds(), ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds(), ProtoOAQuoteType.BID);
+            var msg = msgFactory.CreateTickDataRequest(_accountID, 1, ((DateTimeOffset)DateTime.Now.AddDays(-5)).ToUnixTimeMilliseconds(), ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds(), ProtoOAQuoteType.BID, "EURUSD");
             Transmit(msg);
         }
 
@@ -335,6 +335,13 @@ namespace Open_API_2._0_Sample
         {
             var msgFactory = new OpenApiMessagesFactory();
             _accountID = (long)cbAccounts.SelectedItem;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var msgFactory = new OpenApiMessagesFactory();
+            var msg = msgFactory.CreateSymbolByIdRequest(Convert.ToInt32(_accountID));
+            Transmit(msg, false);
         }
     }
 }

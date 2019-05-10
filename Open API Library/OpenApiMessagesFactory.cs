@@ -265,6 +265,19 @@ namespace Open_API_Library
         {
             return CreateMessage((uint)ProtoOAPayloadType.PROTO_OA_SYMBOLS_LIST_RES, ProtoOASymbolsListRes.CreateBuilder().Build().ToByteString(), clientMsgId);
         }
+        public ProtoMessage CreateSymbolByIdRequest(long accountId, string clientMsgId = null)
+        {
+            var _msg = ProtoOASymbolByIdReq.CreateBuilder();
+            _msg.SetCtidTraderAccountId(accountId);
+            _msg.AddSymbolId(1);
+            _msg.AddSymbolId(2);
+            _msg.AddSymbolId(3);
+            return CreateMessage((uint)_msg.PayloadType, _msg.Build().ToByteString(), clientMsgId);
+        }
+        public ProtoMessage CreateSymbolsListRes(string clientMsgId = null)
+        {
+            return CreateMessage((uint)ProtoOAPayloadType.PROTO_OA_SYMBOL_BY_ID_RES, ProtoOASymbolByIdRes.CreateBuilder().Build().ToByteString(), clientMsgId);
+        }
         public ProtoMessage CreateTrendbarsRequest(long accountId, int symbolId, long from, long to, ProtoOATrendbarPeriod period, string clientMsgId = null)
         {
             var _msg = ProtoOAGetTrendbarsReq.CreateBuilder();

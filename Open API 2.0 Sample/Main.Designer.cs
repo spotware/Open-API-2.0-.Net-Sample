@@ -62,6 +62,7 @@
             this.txtPositionIDTPSL = new System.Windows.Forms.TextBox();
             this.btnAmentSLTP = new System.Windows.Forms.Button();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -285,6 +286,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.button1);
             this.splitContainer1.Panel1.Controls.Add(this.lblAccounts);
             this.splitContainer1.Panel1.Controls.Add(this.cbAccounts);
             this.splitContainer1.Panel1.Controls.Add(this.lblTakeProfit);
@@ -404,6 +406,16 @@
             this.timer2.Interval = 5000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(15, 276);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(145, 23);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "Get Tick Data";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -459,6 +471,7 @@
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label lblAccounts;
         private System.Windows.Forms.ComboBox cbAccounts;
+        private System.Windows.Forms.Button button1;
     }
 }
 

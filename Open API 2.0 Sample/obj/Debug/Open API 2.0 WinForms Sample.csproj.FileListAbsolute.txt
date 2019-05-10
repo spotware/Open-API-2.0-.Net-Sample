@@ -32,3 +32,20 @@ C:\Users\pcharalampous.CTRADER\Documents\GitHub\Open-API-2.0-.Net-Sample\Open AP
 C:\Users\pcharalampous.CTRADER\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csproj.CopyComplete
 C:\Users\pcharalampous.CTRADER\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 Sample.exe
 C:\Users\pcharalampous.CTRADER\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 Sample.pdb
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Open API 2.0 Sample.exe.config
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Open API 2.0 Sample.exe
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Open API 2.0 Sample.pdb
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Google.ProtocolBuffers.Serialization.dll
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Open API Library.dll
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Open API Library.pdb
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Google.ProtocolBuffers.xml
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\bin\Debug\Google.ProtocolBuffers.Serialization.xml
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csprojAssemblyReference.cache
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open_API_2._0_Sample.Main.resources
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open_API_2._0_Sample.Properties.Resources.resources
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csproj.GenerateResource.cache
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csproj.CoreCompileInputs.cache
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 WinForms Sample.csproj.CopyComplete
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 Sample.exe
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API 2.0 Sample\obj\Debug\Open API 2.0 Sample.pdb

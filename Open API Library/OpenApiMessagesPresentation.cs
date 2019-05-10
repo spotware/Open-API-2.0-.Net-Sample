@@ -74,6 +74,16 @@ namespace Connect_API.Trading
                         sbSymbols.Append("Name: " + symbol.SymbolName + Environment.NewLine);
                     }
                     return "Symbols{" + sbSymbols.ToString() + "}";
+                case ProtoOAPayloadType.PROTO_OA_SYMBOL_BY_ID_REQ:
+                    return "GetSymbolsById";
+                case ProtoOAPayloadType.PROTO_OA_SYMBOL_BY_ID_RES:
+                    var symbol_by_id_list = ProtoOASymbolByIdRes.CreateBuilder().MergeFrom(msg.Payload).Build();
+                    var sbSymbolByID = new StringBuilder();
+                    foreach (var symbol in symbol_by_id_list.SymbolList)
+                    {
+                        sbSymbolByID.Append("ID: " + symbol.SymbolId + Environment.NewLine);
+                    }
+                    return "Symbols{" + sbSymbolByID.ToString() + "}";
                 case ProtoOAPayloadType.PROTO_OA_EXECUTION_EVENT:
                     return OpenApiExecEventsToString(msg);
                 case ProtoOAPayloadType.PROTO_OA_DEAL_LIST_REQ:
@@ -138,13 +148,12 @@ namespace Connect_API.Trading
                     var sbTickData = new StringBuilder();
                     foreach (var entry in tickData.TickDataList)
                     {
-                        sbTickData.Append("Tick: " + entry.Tick + Environment.NewLine);
+                        sbTickData.Append("Tick: " + entry.Tick + Environment.NewLine + " " + msg.ClientMsgId);
                     }
                     return "Tick Data{" + sbTickData.ToString() + "}";
                 case ProtoOAPayloadType.PROTO_OA_CANCEL_ORDER_REQ:
                     return "CancelOrderRequest{}";
-                case ProtoOAPayloadType.PROTO_OA_NEW_ORDER_REQ:
-                     var exev = ProtoOAExecutionEvent.CreateBuilder().MergeFrom(msg.Payload).Build();                   
+                case ProtoOAPayloadType.PROTO_OA_NEW_ORDER_REQ:                                  
                     return "CreateOrderRequest{}";
                 case ProtoOAPayloadType.PROTO_OA_CLOSE_POSITION_REQ:
                     return "ClosePositionRequest{}";
