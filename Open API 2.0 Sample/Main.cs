@@ -16,7 +16,7 @@ namespace Open_API_2._0_Sample
     {
         private string _clientId = "178_bksI2VoPA1DXJpfvdcylCSVgNto35ZNtlaSaVEz6S348pxLEN7";
         private string _clientSecret = "S7nxdPMfQFeAh5MjCznVEsUfJ35DyHIeQJpAfCf2ktuVdwGfAU";
-        private string _token = "lKNcOZNgnU1Ygat04QDimjzQy9H9nDRzb9pJ0FUCaW8";
+        private string _token = "Qe3Sufqct5IHY5r3j3Wg40Dc-6GG9s7wMu1sXJ5nQ_E";
         private string _apiHost = "demo.ctraderapi.com";
 
         private int _apiPort = 5035;
@@ -211,8 +211,7 @@ namespace Open_API_2._0_Sample
         {
             if (_readQueue.Count > 0)
             {
-                txtMessages.Text += (string)_readQueue.Dequeue();
-                txtMessages.Text += Environment.NewLine;
+                txtMessages.AppendText((string)_readQueue.Dequeue() + Environment.NewLine);
             }
         }
 

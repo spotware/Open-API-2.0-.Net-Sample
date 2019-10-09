@@ -139,6 +139,7 @@ namespace Connect_API.Trading
                         sbTrendbar.Append("High: " + entry.DeltaHigh + Environment.NewLine);
                         sbTrendbar.Append("Low: " + entry.Low + Environment.NewLine);
                         sbTrendbar.Append("Close: " + entry.DeltaClose + Environment.NewLine);
+                        sbTrendbar.Append("Timestamp: " + entry.UtcTimestampInMinutes + Environment.NewLine);
                     }
                     return "Trendbars{" + sbTrendbar.ToString() + "}";
                 case ProtoOAPayloadType.PROTO_OA_GET_TICKDATA_REQ:
@@ -148,7 +149,8 @@ namespace Connect_API.Trading
                     var sbTickData = new StringBuilder();
                     foreach (var entry in tickData.TickDataList)
                     {
-                        sbTickData.Append("Tick: " + entry.Tick + Environment.NewLine + " " + msg.ClientMsgId);
+                        sbTickData.Append("Tick: " + entry.Tick + " " + msg.ClientMsgId + Environment.NewLine);
+                        sbTickData.Append("Timestamp: " + entry.Timestamp + Environment.NewLine);
                     }
                     return "Tick Data{" + sbTickData.ToString() + "}";
                 case ProtoOAPayloadType.PROTO_OA_CANCEL_ORDER_REQ:

@@ -192,9 +192,10 @@ namespace Open_API_Library
         {
             return CreateMessage((uint)ProtoOAPayloadType.PROTO_OA_ACCOUNT_AUTH_RES, ProtoOAAccountAuthRes.CreateBuilder().Build().ToByteString(), clientMsgId);
         }
-        public ProtoMessage CreateAssetClassListRequest(string clientMsgId = null)
+        public ProtoMessage CreateAssetClassListRequest(long accountId, string clientMsgId = null)
         {
-            var _msg = ProtoOAVersionReq.CreateBuilder();
+            var _msg = ProtoOAAssetClassListReq.CreateBuilder();
+            _msg.SetCtidTraderAccountId(accountId);
             return CreateMessage((uint)_msg.PayloadType, _msg.Build().ToByteString(), clientMsgId);
         }
         public ProtoMessage CreateAssetClassListResponse(string clientMsgId = null)
