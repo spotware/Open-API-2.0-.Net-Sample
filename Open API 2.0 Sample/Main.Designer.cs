@@ -131,7 +131,7 @@
             this.btnUnSubscribeFrorSpots.TabIndex = 6;
             this.btnUnSubscribeFrorSpots.Text = "Unsubscribe From Spots";
             this.btnUnSubscribeFrorSpots.UseVisualStyleBackColor = true;
-            this.btnUnSubscribeFrorSpots.Click += new System.EventHandler(this.btnUnSubscribeFrorSpots_Click);
+            this.btnUnSubscribeFrorSpots.Click += new System.EventHandler(this.btnUnSubscribeFromSpots_Click);
             // 
             // btnGetDealsList
             // 

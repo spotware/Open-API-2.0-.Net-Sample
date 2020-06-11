@@ -222,7 +222,7 @@ namespace Open_API_2._0_Sample
             Transmit(msg);
         }
 
-        private void btnUnSubscribeFrorSpots_Click(object sender, EventArgs e)
+        private void btnUnSubscribeFromSpots_Click(object sender, EventArgs e)
         {
             var msgFactory = new OpenApiMessagesFactory();
             var msg = msgFactory.CreateUnsubscribeFromSpotsRequest(_accountID, 1);
