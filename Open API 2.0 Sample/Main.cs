@@ -324,23 +324,10 @@ namespace Open_API_2._0_Sample
             var msg = msgFactory.CreateHeartbeatEvent();
             Transmit(msg, false);
         }
-
-        private (double A, double B) TupleMethod()
-        {
-            return (2.1, 7.6);
-        }
-
         private void cbAccounts_SelectedIndexChanged(object sender, EventArgs e)
         {
             var msgFactory = new OpenApiMessagesFactory();
             _accountID = (long)cbAccounts.SelectedItem;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var msgFactory = new OpenApiMessagesFactory();
-            var msg = msgFactory.CreateSymbolByIdRequest(Convert.ToInt32(_accountID));
-            Transmit(msg, false);
         }
     }
 }
