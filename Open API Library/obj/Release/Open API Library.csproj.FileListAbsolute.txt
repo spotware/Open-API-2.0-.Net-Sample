@@ -8,3 +8,14 @@ G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\obj\
 G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\obj\Release\Open API Library.csproj.CoreCompileInputs.cache
 G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\obj\Release\Open API Library.dll
 G:\My Drive\Spotware\Code Samples\Open API 2.0 .Net Sample\Open API Library\obj\Release\Open API Library.pdb
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\bin\Release\Open API Library.dll
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\bin\Release\Open API Library.pdb
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\bin\Release\Google.ProtocolBuffers.dll
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\bin\Release\Google.ProtocolBuffers.Serialization.dll
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\bin\Release\Google.ProtocolBuffers.xml
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\bin\Release\Google.ProtocolBuffers.Serialization.xml
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\obj\Release\Open API Library.csprojAssemblyReference.cache
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\obj\Release\Open API Library.csproj.CoreCompileInputs.cache
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\obj\Release\Open API Library.csproj.CopyComplete
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\obj\Release\Open API Library.dll
+C:\Users\pcharalampous.CTRADER.000\Documents\GitHub\Open-API-2.0-.Net-Sample\Open API Library\obj\Release\Open API Library.pdb
