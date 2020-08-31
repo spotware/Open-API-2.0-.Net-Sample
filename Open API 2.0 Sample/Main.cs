@@ -16,7 +16,7 @@ namespace Open_API_2._0_Sample
     {
         private string _clientId = "178_bksI2VoPA1DXJpfvdcylCSVgNto35ZNtlaSaVEz6S348pxLEN7";
         private string _clientSecret = "S7nxdPMfQFeAh5MjCznVEsUfJ35DyHIeQJpAfCf2ktuVdwGfAU";
-        private string _token = "Qe3Sufqct5IHY5r3j3Wg40Dc-6GG9s7wMu1sXJ5nQ_E";
+        private string _token = "N08GynT2KJrRJNjhmP3dbVltaJMg_pF7hZt8XPzbejA";
         private string _apiHost = "demo.ctraderapi.com";
 
         private int _apiPort = 5035;
@@ -249,7 +249,7 @@ namespace Open_API_2._0_Sample
         private void btnGetTransactions_Click(object sender, EventArgs e)
         {
             var msgFactory = new OpenApiMessagesFactory();
-            var msg = msgFactory.CreateCashflowHistoryRequest(_accountID, 1, ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds());
+            var msg = msgFactory.CreateCashflowHistoryRequest(_accountID, ((DateTimeOffset)DateTime.Now.AddDays(-5)).ToUnixTimeMilliseconds(), ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds());
             Transmit(msg);
         }
 
