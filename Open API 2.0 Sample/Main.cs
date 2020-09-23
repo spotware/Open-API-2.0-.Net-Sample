@@ -14,9 +14,9 @@ namespace Open_API_2._0_Sample
 {
     public partial class Main : Form
     {
-        private string _clientId = "178_bksI2VoPA1DXJpfvdcylCSVgNto35ZNtlaSaVEz6S348pxLEN7";
-        private string _clientSecret = "S7nxdPMfQFeAh5MjCznVEsUfJ35DyHIeQJpAfCf2ktuVdwGfAU";
-        private string _token = "N08GynT2KJrRJNjhmP3dbVltaJMg_pF7hZt8XPzbejA";
+        private string _clientId = "1849_HEzIPJY39nZJYDBtCwRUO5Q38w9C9QVzvIRuCDs0RsY1m0VDaG";
+        private string _clientSecret = "a5WKvkKlBJ7PsjdkiakAWKy9MLnCk5CzYeWyQWoSzFbubAOFGY";
+        private string _token = "_fSaTxCvwrkFATVC0rAA5QitI3CTf5tQnXHNYnnS0kY";
         private string _apiHost = "demo.ctraderapi.com";
 
         private int _apiPort = 5035;
@@ -256,14 +256,14 @@ namespace Open_API_2._0_Sample
         private void btnGetTrendbars_Click(object sender, EventArgs e)
         {
             var msgFactory = new OpenApiMessagesFactory();
-            var msg = msgFactory.CreateTrendbarsRequest(_accountID, 1, ((DateTimeOffset)DateTime.Now.AddDays(-5)).ToUnixTimeMilliseconds(), ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds(), ProtoOATrendbarPeriod.M1);
+            var msg = msgFactory.CreateTrendbarsRequest(_accountID, 1, ((DateTimeOffset)DateTime.Now.AddDays(-35)).ToUnixTimeMilliseconds(), ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds(), ProtoOATrendbarPeriod.M1);
             Transmit(msg);
         }
 
         private void btnGetTickData_Click(object sender, EventArgs e)
         {
             var msgFactory = new OpenApiMessagesFactory();
-            var msg = msgFactory.CreateTickDataRequest(_accountID, 1, ((DateTimeOffset)DateTime.Now.AddDays(-5)).ToUnixTimeMilliseconds(), ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds(), ProtoOAQuoteType.BID, "EURUSD");
+            var msg = msgFactory.CreateTickDataRequest(_accountID, 1, ((DateTimeOffset)DateTime.Now.AddDays(-35)).ToUnixTimeMilliseconds(), ((DateTimeOffset)DateTime.Now).ToUnixTimeMilliseconds(), ProtoOAQuoteType.BID, "EURUSD");
             Transmit(msg);
         }
 
